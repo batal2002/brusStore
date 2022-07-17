@@ -93,7 +93,7 @@
 </header>
         <section class="slider">
     <div class="container slider__container">
-        <h2 class="slider__title">Купить брус</h2>
+        <h1 class="slider__title">Купить брус</h1>
         <p class="slider__text">по привлекательной цене</p>
         <button class="button slider__button">Оставить заявку</button>
         <p class="slider__info">акция действительна до&nbsp;20 сентября 2022 года</p>
@@ -124,8 +124,8 @@
         <main>
             <section class="product">
     <div class="container product__container">
-        <div class="title product__title">продукция</div>
-        <div class="swiper product__swiper">
+        <h2 class="title product__title">продукция</h2>
+        <div class="swiper product__slider">
             <div class="swiper-wrapper product__wrapper">
                 <a href="#" class="swiper-slide product__item">
                     <div class="product__img">
@@ -152,9 +152,69 @@
                     <h4 class="product__name">Сопутствующие материалы</h4>
                 </a>
             </div>
-            <div class="product__pagination-wrapper">
-                <div class="swiper-pagination product__pagination"></div>
-                <div class="swiper-scrollbar product__scrollbar"></div>
+
+            <div class="pagination-wrapper product__pagination-wrapper">
+                <span class="swiper-pagination-current product__current">01</span>
+                    <div class="swiper-scrollbar product__scrollbar"></div>
+                    <span class="swiper-pagination-total product__total">04</span>
+            </div>
+        </div>
+    </div>
+</section>
+            <section class="works">
+    <div class="container works__container">
+        <h2 class="title works__title">Наши работы</h2>
+        <div class="swiper works__slider">
+            <div class="swiper-wrapper works__wrapper">
+                <div class="swiper-slide works__slide">
+                    <div class="works__img">
+                        <img src="img/works/bathhouse.png" alt="bathhouse">
+                    </div>
+                    <div class="works__item">
+                        <h4 class="works__name">Баня из бруса в Александровке</h4>
+                        <p class="works__info">Роскошная баня из клеёного бруса</p>
+                    </div>
+                </div>
+                <div class="swiper-slide works__slide">
+                    <div class="works__img">
+                        <img src="img/works/home1.png" alt="bathhouse">
+                    </div>
+                    <div class="works__item">
+                        <h4 class="works__name">Дом в Дятлицах</h4>
+                        <p class="works__info">Просторный жилой дом в Дятлицах</p>
+                    </div>
+                </div>
+                <div class="swiper-slide works__slide">
+                    <div class="works__img">
+                        <img src="img/works/home2.png" alt="bathhouse">
+                    </div>
+                    <div class="works__item">
+                        <h4 class="works__name">Дом в Холодном Ручье</h4>
+                        <p class="works__info">Дом из бруса с большой терассой</p>
+                    </div>
+                </div>
+                <div class="swiper-slide works__slide">
+                    <div class="works__img">
+                        <img src="img/works/home3.png" alt="bathhouse">
+                    </div>
+                    <div class="works__item">
+                        <h4 class="works__name">Дом в парфино</h4>
+                        <p class="works__info">Уютный дом из профилированного бруса</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="swiper-footer works__footer">
+                <div class="pagination-wrapper works__pagination-wrapper">
+                    <span class="swiper-pagination-current works__current">01</span>
+                    <div class="swiper-scrollbar works__scrollbar"></div>
+                    <span class="swiper-pagination-total works__total">04</span>
+                </div>
+    
+                <div class="buttons-wrapper works__buttons-wrapper">
+                    <div class="swiper-button-next works__button-next"></div>
+                    <div div class="swiper-button-prev works__button-prev"></div>
+                </div>
             </div>
         </div>
     </div>
