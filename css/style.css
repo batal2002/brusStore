@@ -1690,7 +1690,7 @@ button.swiper-pagination-bullet {
 
 .slider {
   position: relative;
-  margin: 0 auto;
+  margin: 0 auto 12rem;
   max-width: 192rem;
 }
 
@@ -2330,6 +2330,26 @@ button.swiper-pagination-bullet {
     cursor: pointer;
   }
 
+  .header__mail {
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+
+  .header__mail:hover {
+    color: #F08A01;
+  }
+
+  .header__tel {
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+
+  .header__tel:hover {
+    color: #F08A01;
+  }
+
   .header__nav a:hover {
     color: #F08A01;
   }
@@ -2353,6 +2373,36 @@ button.swiper-pagination-bullet {
   }
 
   .product__item:hover .product__name {
+    color: #F08A01;
+  }
+
+  .footer__link {
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+
+  .footer__link:hover {
+    color: #F08A01;
+  }
+
+  .footer__mail {
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+
+  .footer__mail:hover {
+    color: #F08A01;
+  }
+
+  .footer__tel {
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+
+  .footer__tel:hover {
     color: #F08A01;
   }
 
